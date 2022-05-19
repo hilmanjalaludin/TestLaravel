@@ -17,6 +17,8 @@ use App\Http\Controllers\PostsController;
 //     return view('welcome');
 // });
 Route::get('/', [PostsController::class, 'UserList']);
-Route::get('/ContPost', [PostsController::class, 'ContentPost']);
-Route::get('/comguest', [PostsController::class, 'CommentGuest']);
-Route::get('postobs', [PostsController::class, 'PostsObserver']);
+Route::get('/contPost', [PostsController::class, 'ContentPost']);
+Route::get('/comGuest', [PostsController::class, 'CommentGuest']);
+Route::get('/postobs', [PostsController::class, 'PostsObserver']);
+
+
